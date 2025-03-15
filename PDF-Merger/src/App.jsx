@@ -239,7 +239,9 @@ function App() {
           <div className="column is-10-tablet is-8-desktop">
             <div className="has-text-centered mb-6">
               <h1 className="title is-2 mb-2 has-text-primary">PDF Merger</h1>
-              <p className="subtitle is-5 has-text-warning">Merge multiple PDFs and images into a single document</p>
+              <p className={`subtitle is-5 has-text-${['warning', 'primary', 'danger', 'info', 'success'][Math.floor((Date.now() / 1000) % 5)]}`}>
+                Merge multiple PDFs and images into a single document
+              </p>
             </div>
             
             {/* File Upload Area */}
@@ -336,7 +338,7 @@ function App() {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>
-            <strong className="has-text-primary">PDF Merger</strong> - A tool for merging PDF files
+            <strong className="has-text-primary">📄 PDF Merger 🔀</strong> - A tool for merging PDF files and images 🖼️ with ease 🚀
             <br />
             <strong className="has-text-danger">Made with ❤️ by Mohammed A.</strong> 
           </p>
