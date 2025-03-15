@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react';
 import { PDFDocument } from 'pdf-lib';
 import { saveAs } from 'file-saver';
 import { useDropzone } from 'react-dropzone';
+import { Analytics } from "@vercel/analytics/react"
 import {
   DndContext,
   closestCenter,
@@ -234,6 +235,7 @@ function App() {
 
   return (
     <div className="container has-background-white">
+      <Analytics />
       <section className="section">
         <div className="columns is-centered">
           <div className="column is-10-tablet is-8-desktop">
