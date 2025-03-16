@@ -243,12 +243,12 @@ function App() {
               <h1 className="title is-2 mb-2 has-text-primary">PDF Merger</h1>
               <div className="quote-container">
                 <div className="quote-image">
-                  <img src="/image.png" alt="Dr. Mohamed Shaheen" />
+                  <img src="/image.jpg" alt="Dr. Manar Khatab" />
                 </div>
                 <div className="quote-text">
                   <blockquote>
-                    "ابعتلي وانا اطبعهولك يابني"
-                    <footer>— Dr. Mohamed Shaheen</footer>
+                    "Oh, mon Dieu, c'est incroyable! Je n'ai jamais vu un outil aussi simple et efficace pour fusionner des fichiers PDF. C'est un outil indispensable pour tous les professionnels de la santé."
+                    <footer>— Dr. Manar Khattab</footer>
                   </blockquote>
                 </div>
               </div>
