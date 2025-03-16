@@ -243,12 +243,12 @@ function App() {
               <h1 className="title is-2 mb-2 has-text-primary">PDF Merger</h1>
               <div className="quote-container">
                 <div className="quote-image">
-                  <img src="/image.png" alt="Dr. Mohammed Fathy" />
+                  <img src="/image.png" alt="Dr. Mohamed Shaheen" />
                 </div>
                 <div className="quote-text">
                   <blockquote>
-                    "Merge the PDFs and send them to me, ya 3naya"
-                    <footer>— Dr. Mohammed Fathy</footer>
+                    "ابعتلي وانا اطبعهولك يابني"
+                    <footer>— Dr. Mohamed Shaheen</footer>
                   </blockquote>
                 </div>
               </div>
